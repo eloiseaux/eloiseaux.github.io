@@ -100,3 +100,11 @@ a{
     display: flex;
     justify-content: center;
 }
+
+/* Styles pour les téléphones */
+@media only screen and (max-width: 600px) {
+    .photo-crane img {
+        max-width: 100%; /* La largeur maximale est de 100% de la largeur de l'écran */
+        height: auto; /* La hauteur s'ajustera automatiquement pour maintenir les proportions de l'image */
+    }
+}
