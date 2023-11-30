@@ -47,11 +47,15 @@ a{
     text-decoration: none;
 }
 
+.photo-crane{
+    display: flex;
+    justify-content: center;
+}
+
 .photo-crane img{
     max-width: 900px;
     max-height: 400px;
     box-shadow: 0 0 10px rgba(172, 33, 33, 0.886);
-    text-align: center;
 }
 
 .lien-services {
