@@ -38,6 +38,20 @@ header li:hover{
 }
 
 /*
+Accueil
+*/
+
+.accueil{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+
+/*
 Blog
 */
 
@@ -96,6 +110,29 @@ Photos
 }
 
 .photo img{
+    max-height: 400px;
+    width: auto;
+}
+
+/*
+Bieres
+*/
+
+.bieres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Par défaut, 3 colonnes */
+    gap: 15px; /* Espace entre les photos */
+    padding: 10px;
+}
+
+.img-biere{
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.img-biere img{
     max-height: 400px;
     width: auto;
 }
