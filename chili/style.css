@@ -1,0 +1,138 @@
+/*
+Général
+*/
+
+body{
+    background-color: darkorange;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color:peru;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    box-shadow:  0 2px 5px rgb(0, 0, 0);
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+header li{
+    margin: 10px;
+    list-style: none;
+}
+header li:hover{
+    color: saddlebrown;
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(204, 158, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow:  0 2px 5px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+/*
+Accueil
+*/
+
+.accueil{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+
+/*
+Blog
+*/
+
+.tri-blog{
+    margin-bottom: 10px;
+}
+
+.posts{
+    max-width: 60%;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.blog-post .right-post{
+    margin-left: 15px;
+}
+
+.blog-post .entete{
+    display: flex;
+    flex-direction: row;
+}
+
+.post-date {
+    font-style: italic;
+    margin-left: 25px;
+}
+
+.blog-post img{
+    max-height: 400px;
+    width: auto;
+}
+
+/*
+Photos
+*/
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Par défaut, 3 colonnes */
+    gap: 15px; /* Espace entre les photos */
+    padding: 10px;
+}
+
+.photo{
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.photo img{
+    max-height: 400px;
+    width: auto;
+}
+
+/*
+Bieres
+*/
+
+.bieres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Par défaut, 3 colonnes */
+    gap: 15px; /* Espace entre les photos */
+    padding: 10px;
+}
+
+.img-biere{
+    padding: 15px;
+    background-color: rgb(244, 209, 96);
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.img-biere img{
+    max-height: 400px;
+    width: auto;
+}
